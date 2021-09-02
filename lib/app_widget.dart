@@ -1,4 +1,5 @@
 import 'package:bmi_calculator/image/image1.dart';
+import 'package:bmi_calculator/layout/layouting_3.dart';
 import 'package:bmi_calculator/presentation/home/home_page.dart';
 import 'package:flutter/material.dart';
 
@@ -11,7 +12,7 @@ class AppWidget extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Image1(),
+      home: Layouting3(),
     );
   }
 }
